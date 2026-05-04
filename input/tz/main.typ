@@ -1,3 +1,6 @@
-= Техническое задание
+#import "template.typ": template
+#import "cfg.typ": cfg
 
-TODO: вставьте сюда основной текст ТЗ или замените файл своими Typst-секциями.
+#show: body => template(cfg: cfg, body)
+
+#include "body.typ"

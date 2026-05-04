@@ -1,3 +1,6 @@
-= Командное техническое задание
+#import "template.typ": template
+#import "cfg.typ": cfg
 
-TODO: используйте этот каталог только если нужен командный ПМИ.
+#show: body => template(cfg: cfg, body)
+
+#include "body.typ"

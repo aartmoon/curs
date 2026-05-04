@@ -8,3 +8,10 @@
 6. Запустите `term-paper generate-doc --doc pz` или другую нужную команду.
 7. Проверьте `docs/<doc>/sections`.
 8. Соберите PDF командой `term-paper create-pdf --doc <doc>`.
+
+
+скомпилить tz-team
+typst compile input/tz-team/main.typ build/tz-team.pdf && ls -l build/tz-team.pdf
+
+скомпилить tz
+typst compile input/tz/main.typ build/tz.pdf && ls -l build/tz.pdf

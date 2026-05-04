@@ -6,7 +6,7 @@
 project:
     name: Питомец.ком
     english_name: Pitomets.com
-    code: "05.01"
+    code: "05.04"
     summary: Платформа для продажи животных.
     type: web-service
 student:
