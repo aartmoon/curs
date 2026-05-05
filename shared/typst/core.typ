@@ -7,7 +7,7 @@
 #let organization = config.organization
 
 #let faculty-name = "Факультет компьютерных наук"
-#let program-name = "Образовательная программа \"Программная инженерия\""
+#let program-name = "Образовательная программа \"Дизайн и разработка информационных продуктов\""
 #let current-year = datetime.today().year()
 
 #let project-name() = project.name
