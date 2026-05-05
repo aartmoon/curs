@@ -14,7 +14,7 @@ student:
     group: БДРИП242
 supervisor:
     name: Учватов Семен Алексеевич
-    position: Ведущий разработчик ООО "ТЦР"
+    position: Научный руководитель, ведущий разработчик ООО "ТЦР"
 approver:
     name: Син Денис Дмитриевич
     position: Академический руководитель образовательной программы "Дизайн и разработка информационных продуктов", преподаватель Базовой кафедры Т-Банка
@@ -34,4 +34,4 @@ ai:
     provider: openrouter
     base_url: https://openrouter.ai/api/v1
     model: deepseek/deepseek-chat-v3-0324
-    api_key: ""
+    api_key: ''
