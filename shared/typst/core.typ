@@ -30,11 +30,11 @@
 #let document-code(id) = if id == "tz" {
   "RU.17701729." + project.code + " ТЗ 01-1"
 } else if id == "pz" {
-  "RU.17701729." + project.code + " 81 01-1"
+  "RU.17701729." + project.code + " 81 03-1"
 } else if id == "pmi" or id == "pmi-team" {
   "RU.17701729." + project.code + " 51 01-1"
 } else if id == "ro" {
-  "RU.17701729." + project.code + " 34 01-1"
+  "RU.17701729." + project.code + " 34 03-1"
 } else {
   "RU.17701729." + project.code
 }

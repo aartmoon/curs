@@ -18,3 +18,6 @@ typst compile input/tz/main.typ build/tz.pdf && ls -l build/tz.pdf
 
 скомпилить текст программы
 typst compile input/tp/main.typ build/tp.pdf && ls -l build/tp.pdf
+
+скомпилить другое
+term-paper create-pdf
