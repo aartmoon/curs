@@ -4,16 +4,9 @@
 
 == Наименование программы
 
-#paragraph[
-  Наименование программы: "#project-name()".
-]
-
-#paragraph[
-  Наименование программы на английском языке: "#project-name-english()".
-]
+#h(2em) Наименование программы -- "#project-name()".\
+#h(2em) Наименование программы на английском языке -- "#project-name-english()".
 
 == Краткая характеристика области применения программы
 
-#paragraph[
-  #project-summary()
-]
+#h(2em) #project-summary()
