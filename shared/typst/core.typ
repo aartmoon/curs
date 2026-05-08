@@ -31,7 +31,9 @@
   "RU.17701729." + project.code + " ТЗ 01-1"
 } else if id == "pz" {
   "RU.17701729." + project.code + " 81 03-1"
-} else if id == "pmi" or id == "pmi-team" {
+} else if id == "pmi" {
+  "RU.17701729." + project.code + " 51 03-1"
+} else if id == "pmi-team" {
   "RU.17701729." + project.code + " 51 01-1"
 } else if id == "ro" {
   "RU.17701729." + project.code + " 34 03-1"
