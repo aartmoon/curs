@@ -318,7 +318,7 @@
   [Юла],
   [FarPost],
   [OLX],
-  [*Our Project*],
+  [*Pitomets*],
 )
 
 #let plus = table.cell(
@@ -343,11 +343,11 @@
     [Публикация объявлений о животных], plus,
     plus, plus, minus, plus,
     [Фото и подробное описание], plus, plus, plus, plus, plus,
-    [Фильтрация по параметрам животного], minus, plus, plus, minus, plus,
+    [Прозрачная система модерации], minus, minus, plus, minus, plus,
     [Избранное], plus, minus, plus, minus, plus,
     [Сообщения продавцу], plus, plus, minus, minus, plus,
 
-    [*Итого*], [*4*], [*4*], [*4*], [*1*], [*5*],
+    [*Итого*], [*4*], [*3*], [*4*], [*1*], [*5*],
   )
 )
 
@@ -356,7 +356,7 @@
   [Юла],
   [FarPost],
   [OLX],
-    [*Our Project*],
+  [*Pitomets*],
 )
 
 #figure(
@@ -372,12 +372,12 @@
 
     [Удобный интерфейс],   plus, 
     plus, plus, minus, plus,
-    [Фильтры по породе и возрасту], minus, plus, plus, minus, plus,
+    [Противодействие накрутке отзывов], minus, minus, minus, minus, plus,
     [Поиск объявлений], plus, plus, plus, minus, plus,
     [Страницы продавцов], plus, plus, plus, minus, plus,
     [Адаптивная версия для смартфонов], plus, plus, minus, minus, plus,
 
-    [*Итого*], [*4*], [*5*], [*4*], [*0*], [*5*],
+    [*Итого*], [*4*], [*4*], [*3*], [*0*], [*5*],
     )
 )
 
