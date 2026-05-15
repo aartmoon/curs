@@ -329,13 +329,12 @@
             ..column_names.map(col => rotate(0deg, reflow: true, col))
         ),
 
-        [Публикация объявлений о животных], plus, plus, plus, minus, plus,
+        [Отсутствие лимита на выкладывание объявлений], minus, minus, minus, minus, plus,
         [Фото и подробное описание], plus, plus, plus, plus, plus,
-        [Фильтрация по параметрам животного], minus, plus, plus, minus, plus,
-        [Избранное], plus, minus, plus, minus, plus,
-        [Сообщения продавцу], plus, plus, minus, minus, plus,
+        [Прозрачная система модерации], minus, minus, minus, minus, plus,
+        [Сообщения продавцу], plus, plus, plus, plus, plus,
 
-        [*Итого*], [*4*], [*4*], [*4*], [*1*], [*5*],
+        [*Итого*], [*2*], [*2*], [*2*], [*2*], [*5*],
     )
 )
 
@@ -358,13 +357,11 @@
             ..column_names2.map(col => rotate(0deg, reflow: true, col))
         ),
 
-        [Удобный интерфейс], plus, plus, plus, minus, plus,
-        [Фильтры по породе и возрасту], minus, plus, plus, minus, plus,
-        [Поиск объявлений], plus, plus, plus, minus, plus,
-        [Страницы продавцов], plus, plus, plus, minus, plus,
-        [Адаптивная версия для смартфонов], plus, plus, minus, minus, plus,
+        [Специализация на животных], minus, minus, minus, minus, plus,
+        [Поиск объявлений], plus, plus, plus, plus, plus,
+        [Страницы продавцов], plus, plus, plus, plus, plus,
 
-        [*Итого*], [*4*], [*5*], [*4*], [*0*], [*5*],
+        [*Итого*], [*2*], [*2*], [*2*], [*2*], [*3*],
     )
 )
 
@@ -606,10 +603,6 @@
     [Юла], [https://youla.ru/],
     [FarPost], [https://www.farpost.ru/],
     [OLX], [https://www.olx.com/],
-    [Petstory], [https://petstory.ru/],
-    [Zoopla], [https://www.zoopla.co.uk/],
-    [Petfinder], [https://www.petfinder.com/],
-    [AdoptaPet], [https://www.adoptapet.com/],
   )
 )
 

@@ -408,24 +408,8 @@
     )
 
     set par(
-      first-line-indent: (
-        amount: 2em,
-        all: true,
-      ),
       justify: true,
-      spacing: 0.65em,
-      leading: 0.65em,
-    )
-
-    set list(
-      indent: 2em,
-      spacing: 0.65em,
-      marker: "-",
-    )
-
-    set enum(
-      indent: 2em,
-      spacing: 0.65em,
+      leading: 1em,
     )
 
     set heading(numbering: "1.")
@@ -451,13 +435,7 @@
         size: 12pt,
       )
 
-      block(inset: (left: 1em))[#counter(heading).display() #h.body]
-    }
-
-    show heading.where(level: 3): h => {
-      set text(weight: "bold", size: 12pt)
-
-      block(inset: (left: 3em))[#counter(heading).display() #h.body]
+      [#counter(heading).display() #h.body]
     }
 
     pagebreak(weak: true)
