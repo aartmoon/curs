@@ -44,8 +44,17 @@
 #let approval-code(id) = document-code(id) + "-ЛУ"
 
 #let paragraph(body) = {
-  h(2em)
   body
+}
+
+#let paragraph-no-indent(body) = {
+  set par(first-line-indent: 0em)
+  set list(indent: 0.5em)
+  body
+}
+
+#let subitem(text) = {
+  h(0.5em) + text
 }
 
 #let document-annotation(id) = if id == "tz" [
@@ -408,8 +417,24 @@
     )
 
     set par(
+      first-line-indent: (
+        amount: 2em,
+        all: true,
+      ),
       justify: true,
-      leading: 1em,
+      spacing: if id == "pz" { 1em } else { 0.65em },
+      leading: if id == "pz" { 1em } else { 0.65em },
+    )
+
+    set list(
+      indent: 2em,
+      spacing: 0.65em,
+      marker: "-",
+    )
+
+    set enum(
+      indent: 2em,
+      spacing: 0.65em,
     )
 
     set heading(numbering: "1.")
