@@ -543,3 +543,8 @@
   caption: [Схема взаимодействия микросервисов через Kafka],
 )
 
+#figure(
+  image("../../images_fedya/kafka.jpeg", width: 75%),
+  caption: [Пример топика Kafka с событиями модерации],
+)
+

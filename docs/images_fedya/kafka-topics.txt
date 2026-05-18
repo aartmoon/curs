@@ -1,0 +1,7 @@
+$ /opt/kafka/bin/kafka-console-consumer.sh \
+--bootstrap-server kafka:9092 \
+--topic moderation.requested \
+--from-beginning
+{"eventId":"9b45590ac-7aeb-4648-91b4-ad20bf1adf58","entityType":"USER","entityId":7,"operation":"CREATE","textParts":["shop"],"withAnimal":true,"requestedAt":1717888965,5623238301}
+{"eventId":"1735d94d-80f7-4902-bb8c-98f35cba896c","entityType":"USER","entityId":2,"operation":"CREATE","textParts":["Мартин","Король"],"withAnimal":false,"requestedAt":1717888919}
+...
