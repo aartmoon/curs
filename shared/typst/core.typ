@@ -1,7 +1,20 @@
 #let config = yaml("../../term-paper.yaml")
 
 #let project = config.project
-#let student = config.student
+#let student = if config.student != none {
+  config.student
+} else if config.students != none {
+  config.students[0]
+} else {
+  none
+}
+#let students = if config.students != none {
+  config.students
+} else if config.student != none {
+  [config.student]
+} else {
+  []
+}
 #let supervisor = config.supervisor
 #let approver = config.approver
 #let organization = config.organization
@@ -230,9 +243,17 @@
 
       Исполнители:
 
-      Студент группы #student.group
+      #if students != [] [
+        #students.map(s => [
+          Студент группы #s.group
 
-      #un(13) / #student.name /
+          #un(13) / #s.name /
+        ]).join[#linebreak() #linebreak()]
+      ] else if student != none [
+        Студент группы #student.group
+
+        #un(13) / #student.name /
+      ]
 
       "#un(3)" #un(15) #current-year г.
     ]
