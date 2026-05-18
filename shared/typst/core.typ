@@ -1,19 +1,19 @@
 #let config = yaml("../../term-paper.yaml")
 
 #let project = config.project
-#let student = if config.student != none {
-  config.student
-} else if config.students != none {
-  config.students[0]
+#let student = if config.at("student", default: none) != none {
+  config.at("student")
+} else if config.at("students", default: none) != none {
+  config.at("students").at(0)
 } else {
   none
 }
-#let students = if config.students != none {
-  config.students
-} else if config.student != none {
-  [config.student]
+#let students = if config.at("students", default: none) != none {
+  config.at("students")
+} else if config.at("student", default: none) != none {
+  (config.at("student"),)
 } else {
-  []
+  ()
 }
 #let supervisor = config.supervisor
 #let approver = config.approver
