@@ -241,7 +241,7 @@
     let student-info = align(right)[
       #set par(spacing: 1em)
 
-      Исполнители:
+      Исполнитель:
 
       #if students != [] [
         #students.map(s => [

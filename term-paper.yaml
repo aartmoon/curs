@@ -4,13 +4,13 @@
 # Положите архивы кода или папки репозиториев в директорию inputs.code_dir
 # В inputs.notes_file можно добавить дополнительные требования, скриншоты и замечания
 project:
-    name: Питомец.ком – Разработка сервисов, клиентской части И инфраструктуры
+    name: Питомец.ком – Разработка сервисов, клиентской части и инфраструктуры
     english_name: Pitomets.com – Development of services, client side, and infrastructure
     code: "05.04"
     summary: Платформа для продажи животных.
     type: web-service
 student:
-    name: "Шарков Артём Дмитриевич"
+    name: "А. Д. Шарков"
     group: "БДРИП242"
 supervisor:
     name: Учватов Семен Алексеевич

@@ -112,11 +112,6 @@
 ]
 
 #figure(
-  image("../../images/create_listing.PNG", width: 35%),
-  caption: [Форма создания объявления],
-)
-
-#figure(
   image("../../images/add_photo_listing.PNG", width: 35%),
   caption: [Добавление фотографии к объявлению],
 )

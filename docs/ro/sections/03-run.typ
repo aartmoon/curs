@@ -154,11 +154,6 @@
 ]
 
 #figure(
-  image("../../images/create_listing.PNG", width: 35%),
-  caption: [Форма создания объявления],
-)
-
-#figure(
   image("../../images/create_listing_2_find_city.PNG", width: 35%),
   caption: [Выбор города в объявлении],
 )
